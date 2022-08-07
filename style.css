@@ -1,10 +1,17 @@
 :root {
-  --primary-color: #6c63ff;
+  --primary-color: #94b49f;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
+
 body {
   display: block;
+}
+.hero {
+  background-color: #94b49f;
+  color: var(--secondary-color);
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 h1,
 h2,
@@ -26,7 +33,6 @@ h3 {
 }
 
 p {
-  background: var(--secondary-color);
   padding: 20px;
   border-radius: 4px;
   font-size: 18px;
@@ -47,7 +53,9 @@ p {
   text-decoration: none;
   text-transform: capitalize;
 }
-
+.img-thumbnail {
+  background-color: var(--primary-color);
+}
 .contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
