@@ -104,3 +104,12 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+
+.fa-github {
+  color: var(--primary-color);
+  font-size: 60px;
+}
+.fa-linkedin {
+  color: var(--primary-color);
+  font-size: 60px;
+}
