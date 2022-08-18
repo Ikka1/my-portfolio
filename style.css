@@ -18,7 +18,8 @@ body {
 }
 h1,
 h2,
-h3 {
+h3,
+h4 {
   text-align: center;
 }
 
@@ -34,13 +35,22 @@ h3 {
   font-size: 24px;
   opacity: 0.7;
 }
-
-p {
+.index-project-text {
+  padding-top: 20px;
+  font-family: "Bradley Hand ITC";
+  font-size: 48px;
+}
+.index-paragraph {
   padding: 20px;
   border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  padding: 20px;
+
+  background-color: #fcf8e8;
 }
 
 .navigation-links {
@@ -81,16 +91,6 @@ p {
   font-size: 20px;
   font-weight: 600;
 }
-.contact-link {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-}
-
-.about-link {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-}
 
 .about-skill {
   color: var(--primary-color);
@@ -117,19 +117,21 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+.contact-me-top-text {
+  margin-top: 80px;
+}
+
 .contact-me {
   background: var(--primary-color);
   margin-top: 150px;
   margin-bottom: 150px;
 }
-.contact-link {
-  display: flex;
-  flex-wrap: wrap;
-}
+
 .contact-bar {
+  margin: 80px 0 80px 0;
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 25px;
+  font-size: 30px;
   color: var(--secondary-color);
 }
 .contact-bar-details {
