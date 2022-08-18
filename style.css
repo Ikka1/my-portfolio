@@ -142,15 +142,7 @@ h3 {
   color: var(--secondary-color);
 }
 
-.fa-github {
-  color: var(--primary-color);
-  font-size: 60px;
-}
-.fa-linkedin {
-  color: var(--primary-color);
-  font-size: 60px;
-}
-.fa-at {
+.contact-icon {
   color: var(--primary-color);
   font-size: 60px;
 }
