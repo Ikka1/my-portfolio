@@ -117,6 +117,9 @@ h3 {
   box-shadow: var(--box-shadow);
   color: white;
 }
+.primary-link:hover {
+  background-color: #cc9a74;
+}
 .contact-me-top-text {
   font-size: 62px;
   font-weight: 700;
@@ -147,6 +150,9 @@ h3 {
   font-size: 60px;
 }
 .contact-icon:hover {
+  color: #cc9a74;
+}
+.index-icon:hover {
   color: #cc9a74;
 }
 .index-icon {
