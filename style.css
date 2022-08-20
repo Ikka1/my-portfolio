@@ -149,12 +149,11 @@ h3 {
   color: var(--primary-color);
   font-size: 60px;
 }
-.contact-icon:hover {
-  color: #cc9a74;
-}
+.contact-icon:hover,
 .index-icon:hover {
   color: #cc9a74;
 }
+
 .index-icon {
   color: var(--primary-color);
   font-size: 60px;
