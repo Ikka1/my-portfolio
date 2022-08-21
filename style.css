@@ -159,3 +159,11 @@ h3 {
   font-size: 60px;
   margin-top: 20px;
 }
+.open-source {
+  margin: 20px 0 20px 0;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
